@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -12,7 +12,7 @@ Filter::Heredoc - Search and filter embedded here documents
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -880,14 +880,14 @@ L<http://en.wikipedia.org/wiki/Here_document>
 The IEEE Std 1003.1-2008 standards can be found here:
 L<http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html>
 
-L<Filter::Heredoc::Rule(3)>, L<filter-heredoc(1)>
+L<Filter::Heredoc::Rule>, L<filter-heredoc>
 
-L<Filter::Heredoc::Cookbook(3)> discuss e.g. how to embed POD as
+L<Filter::Heredoc::Cookbook> discuss e.g. how to embed POD as
 here documents in shell scripts to carry their own documentation.
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011, Bertil Kronlund
+Copyright 2011-12, Bertil Kronlund
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

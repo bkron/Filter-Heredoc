@@ -1,4 +1,4 @@
-Filter::Heredoc version 0.01
+## Filter::Heredoc
 
 Search and extract "any" here document embedded in scripts from STDIN or an
 input file. Pipe output to an external program such as hunspell or aspell.
@@ -8,7 +8,7 @@ compliant shell scripts. Perl have derived a similar here document syntax
 but is at the same time different in many details. Perls here document will
 be supported but is in the initial version experimental. 
 
-SYNOPSIS
+### SYNOPSIS
 
     use 5.010;
     use Filter::Heredoc qw( hd_getstate hd_init hd_labels );
@@ -22,29 +22,29 @@ SYNOPSIS
 
 See the 'examples' directory for code snippets.
 
-INSTALLATION
+### INSTALLATION
 
 The last command requires root/sudo privileges when installing
 system wide. To install this module, run the following commands:
 
-	$ perl Build.PL
-	$ ./Build
-	$ ./Build test
-	
-	# ./Build install
+    $ perl Build.PL
+    $ ./Build
+    $ ./Build test
+    
+    # ./Build install
 
-DEPENDENCIES
+### DEPENDENCIES
 
 Filter::Heredoc requires Perl 5.10 (or any later version).
 
 
-LIMITATIONS
+### LIMITATIONS
 
 Filter::Heredoc complies with *nix POSIX shells here document syntax.
 Non-compliant shells on e.g. MSWin32 platform is not supported.
 
 
-SUPPORT AND DOCUMENTATION
+### SUPPORT AND DOCUMENTATION
 
 When you install Filter::Heredoc, manual pages will automatically be
 installed. On *nix systems, type "man Filter::Heredoc" or
@@ -63,9 +63,9 @@ You can look for more information at:
 
     Search CPAN
         http://search.cpan.org/dist/Filter-Heredoc/
-	
 
-LICENSE AND COPYRIGHT
+
+### LICENSE AND COPYRIGHT
 
 Copyright (C) 2011 Bertil Kronlund
 

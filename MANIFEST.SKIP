@@ -66,9 +66,6 @@
 \bbuild.com$
 ^MANIFEST\.SKIP
 
-# Avoid json META file
-^META\.json
-
 # Avoid archives of this distribution
 \bFilter-Heredoc-[\d\.\_]+
 

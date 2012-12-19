@@ -1,7 +1,8 @@
-# Revision history for Filter-Heredoc in 'shell here document format'.
-: <<END_VERSION;<<END_ENHANCEMENTS;
+Revision history for Filter-Heredoc
 
-    0.01 (2011-12-14 12:43Z) ** Codename: Abraxan **
-END_VERSION
-    * First version, released on an unsuspecting world.
-END_ENHANCEMENTS
+0.02  Dec 19 19:39 2012
+       Bugfix - Don't exclude Max OS X in Build.PL.
+
+0.01  Dec 14 12:43 2011
+       Initial release.
+

@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -12,7 +12,7 @@ Filter::Heredoc::App - The module behind the filter-heredoc command
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -928,11 +928,11 @@ Bertil Kronlund, C<< <bkron at cpan.org> >>
 
 =head1 SEE ALSO
 
-L<Filter::Heredoc(3)>, L<filter-heredoc(1)>
+L<Filter::Heredoc>, L<filter-heredoc>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011, Bertil Kronlund
+Copyright 2011-12, Bertil Kronlund
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

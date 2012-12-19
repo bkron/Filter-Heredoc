@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Module::Build;
 
-BEGIN{ die "OS unsupported" if ($^O =~ /win/i); }
+BEGIN{ die "OS unsupported" if ($^O eq 'MSWin32'); }
 
 my $builder = Module::Build->new(
     module_name         => 'Filter::Heredoc', 

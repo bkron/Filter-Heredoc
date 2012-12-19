@@ -1,0 +1,7 @@
+# Revision history for Filter-Heredoc in 'shell here document format'.
+: <<END_VERSION;<<END_ENHANCEMENTS;
+
+    0.01 (2011-12-14 12:43Z)
+END_VERSION
+    * First version, released on an unsuspecting world.
+END_ENHANCEMENTS

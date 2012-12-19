@@ -5,7 +5,7 @@ Filter::Heredoc::Cookbook - The Filter::Heredoc Cookbook
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -131,7 +131,7 @@ The embedded POD text has included more information though.
   
   =head1 LICENSE AND COPYRIGHT
 
-  Copyright 2011, Bertil Kronlund
+  Copyright 2011-12, Bertil Kronlund
 
   This program is free software; you can redistribute it and/or modify it
   under the terms of either: the GNU General Public License as published
@@ -279,14 +279,14 @@ This inspired me to create the L<Filter::Heredoc> module.
 
 =head1 SEE ALSO
 
-L<Filter::Heredoc(3)>, L<filter-heredoc(1)>
+L<Filter::Heredoc>, L<filter-heredoc>
 
 L<pod2man(1)>, L<pod2html(1)>, L<pod2pdf(1)>, L<podspell(1)>,
 L<aspell(1)>, L<hunspell(1)>, L<ispell(1)>, L<Test::Spelling(3)>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011, Bertil Kronlund
+Copyright 2011-12, Bertil Kronlund
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -162,10 +162,10 @@ C<< <bug-filter-heredoc at rt.cpan.org> >>.
 The IEEE Std 1003.1-2008 standards can be found here:
 L<http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html>
 
-L<Filter::Heredoc::Cookbook(3)> discuss e.g. how to embed POD as
+L<Filter::Heredoc::Cookbook> discuss e.g. how to embed POD as
 here documents in shell scripts to carry their own documentation.
 
-L<Filter::Heredoc(3)>, L<perlpod(1)>,  L<podspell(1)>, 
+L<Filter::Heredoc>, L<perlpod(1)>,  L<podspell(1)>, 
 L<aspell(1)>, L<ispell(1)>, L<hunspell(1)>.
 
 On Debian systems, find international L<hunspell> dictionaries at
@@ -173,7 +173,7 @@ L<http://packages.debian.org/stable/hunspell>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011, Bertil Kronlund
+Copyright 2011-12, Bertil Kronlund
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
@@ -190,6 +190,6 @@ WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 =head1 VERSION
 
 The version of B<filter-heredoc> described by this manual page is 
-Version 0.01.
+Version 0.02.
 
 =cut
