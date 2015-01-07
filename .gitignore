@@ -17,4 +17,4 @@ pod2htm*.tmp
 pm_to_blib
 Filter-Heredoc-*
 Filter-Heredoc-*.tar.gz
-
+*.komodoproject

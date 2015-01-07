@@ -1,8 +1,11 @@
 
-TODO Dec 14nd, 2011
+TODO Jan 7th, 2015
 =====================
 This file decribes TODO's to the package and files which prints 
 heredoc content for post processing by other unix utilities.
+
+In general move to Dist::Zilla to maintain this distribution
+
 
 FILTER::HEREDOC
 ===============
@@ -13,15 +16,9 @@ ENHANCEMENTS:
 TESTS:
 
 
-
 DOCUMENTATION:
 
 
-* Set the DATE in the Changes file!!! What datum format?
-  Use ISO8601 format: '2009-11-08 20.35Z'
-    
-    use POSIX qw( strftime );
-    POSIX::strftime(q!%Y-%m-%d %H.%MZ!,gmtime);
 
 
 

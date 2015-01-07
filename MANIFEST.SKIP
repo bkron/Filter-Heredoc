@@ -78,3 +78,6 @@
 \B\.perlcriticrc\b
 \.sh$
 \.tdy$
+
+# No project files
+\.komodoproject$

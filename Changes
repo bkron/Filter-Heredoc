@@ -1,5 +1,8 @@
 Revision history for Filter-Heredoc
 
+0.03_01  Jan 07 14:50 2015
+       Bugfix - Correct POD error, remove Changes.hd
+
 0.02  Dec 19 19:39 2012
        Bugfix - Don't exclude Max OS X in Build.PL.
 
