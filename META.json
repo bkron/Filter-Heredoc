@@ -4,7 +4,7 @@
       "Bertil Kronlund <bkron at cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
+   "generated_by" : "Module::Build version 0.4205",
    "license" : [
       "perl_5"
    ],
@@ -16,12 +16,12 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : 0
+            "Test::More" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.42"
          }
       },
       "runtime" : {
@@ -33,22 +33,22 @@
    "provides" : {
       "Filter::Heredoc" : {
          "file" : "lib/Filter/Heredoc.pm",
-         "version" : "0.01"
+         "version" : "0.03_01"
       },
       "Filter::Heredoc::App" : {
          "file" : "lib/Filter/Heredoc/App.pm",
-         "version" : "0.01"
+         "version" : "0.03_01"
       },
       "Filter::Heredoc::Rule" : {
          "file" : "lib/Filter/Heredoc/Rule.pm",
-         "version" : "0.01"
+         "version" : "0.03_01"
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.03_01"
 }
