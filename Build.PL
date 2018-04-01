@@ -18,6 +18,11 @@ my $builder = Module::Build->new(
     },
     add_to_cleanup      => [ 'Filter-Heredoc-*' ],
     recursive_test_files => 1,
+    meta_merge => {
+        resources => {
+                      repository => 'https://github.com/dwimperl/Task-DWIM'
+        }
+    },
 );
 
 $builder->create_build_script();
