@@ -20,7 +20,7 @@ my $builder = Module::Build->new(
     recursive_test_files => 1,
     meta_merge => {
         resources => {
-                      repository => 'https://github.com/dwimperl/Task-DWIM'
+                      repository => 'https://github.com/bkron/Filter-Heredoc'
         }
     },
 );

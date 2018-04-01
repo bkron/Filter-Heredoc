@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 =head1 NAME
 
@@ -12,7 +12,7 @@ Filter::Heredoc::App - The module behind the filter-heredoc command
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =cut
 

@@ -1,6 +1,9 @@
 Revision history for Filter-Heredoc
 
-0.03   Apr 01 09:12 2018
+0.04  Apr 01 10:10 2018
+       Add meta to github repository
+
+0.03   pr 01 09:12 2018
        Bugfix - Correct POD error, remove Changes.hd
        Bugfix - Correct encoding utf-8, Cookbook.pod
 
