@@ -1,3 +1,4 @@
+=encoding utf8
 
 =head1 NAME
 
@@ -5,7 +6,7 @@ Filter::Heredoc::Cookbook - The Filter::Heredoc Cookbook
 
 =head1 VERSION
 
-Version 0.03_01
+Version 0.03
 
 =cut
 
