@@ -406,9 +406,8 @@ END_USAGE
 sub _print_version {
 
     print <<"END_VERSION";
-    
  $SCRIPT, version $VERSION
- Copyright 2011, Bertil Kronlund
+ Copyright 2011-2018, Bertil Kronlund
  
  This program is free software; you can redistribute it and/or modify it
  under the terms of either: the GNU General Public License as published
