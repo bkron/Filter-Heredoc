@@ -10,6 +10,9 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => q{Bertil Kronlund <bkron at cpan.org>},
     dist_version_from   => 'lib/Filter/Heredoc.pm',
+    configure_requires => {
+        'Module::Build' => 0.38,
+    },
     build_requires => {
         'Test::More' => 0,
     },
